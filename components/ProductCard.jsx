@@ -21,6 +21,7 @@ export default function ProductCard({ product }) {
   const [showModel, setShowModel] = useState(false);
   const [touch, setTouch] = useState(false);
   const [talla, setTalla] = useState("M");
+  const [qvAdded, setQvAdded] = useState(false);
 
   useEffect(() => {
     const mq = window.matchMedia("(hover: none)");
@@ -43,6 +44,8 @@ export default function ProductCard({ product }) {
 
   const add = (t) => {
     addItem(product, t);
+    setQvAdded(true);
+    setTimeout(() => setQvAdded(false), 1400);
   };
 
   const handleCard = () => {
@@ -173,10 +176,10 @@ export default function ProductCard({ product }) {
                 <div className="qv-actions">
                   <button
                     type="button"
-                    className={`btn pd-add ${added ? "is-added" : ""}`}
+                    className={`btn pd-add ${qvAdded ? "is-added" : ""}`}
                     onClick={() => add(talla)}
                   >
-                    {added ? "AÑADIDO ✓" : "AÑADIR A LA BOLSA"}
+                    {qvAdded ? "AÑADIDO ✓" : "AÑADIR A LA BOLSA"}
                   </button>
                   <Link
                     href={`/tienda/${product.slug}`}
