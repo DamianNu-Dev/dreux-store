@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1000" fill="none" role="img" aria-label="Model in black tee and wide pants with sunglasses in motion">
+  <g stroke="#cfcfcf" stroke-width="2.6" stroke-linejoin="round">
+    <!-- left arm (behind) -->
+    <path fill="#0b0b0b" d="M220 300c-26 22-52 78-62 148l42 12c14-58 30-104 48-130z"/>
+    <path fill="#d9a37f" d="M160 442c-6 44-8 84-2 122l36-2c-4-40-2-80 6-116z"/>
+    <ellipse cx="176" cy="578" rx="20" ry="26" fill="#d9a37f"/>
+    <!-- right arm (dynamic, out) -->
+    <path fill="#0b0b0b" d="M420 300c30 6 68 34 104 74l-30 30c-34-34-64-58-92-70z"/>
+    <path fill="#d9a37f" d="M516 366c34 30 62 58 82 86l-30 24c-24-30-50-56-82-84z"/>
+    <ellipse cx="586" cy="470" rx="22" ry="18" transform="rotate(38 586 470)" fill="#d9a37f"/>
+    <!-- shoes -->
+    <path fill="#0b0b0b" d="M188 934h116l8 40c1 12-9 20-40 20h-66c-14 0-20-8-18-20z"/>
+    <path fill="#0b0b0b" d="M338 934h122l6 40c1 12-9 20-40 20h-72c-14 0-20-8-18-20z"/>
+    <!-- pants -->
+    <path fill="#0b0b0b" d="M208 520h224l22 418H344l-12-330-24 330H190z"/>
+    <!-- tee -->
+    <path fill="#0b0b0b" d="M216 300c0-28 28-42 72-48l18-6c4 22 24 22 28 0l18 6c44 6 72 20 72 48l8 222c0 14-12 22-36 22H244c-24 0-36-8-36-22z"/>
+    <!-- neck + head -->
+    <path fill="#d9a37f" d="M296 214h48l8 60h-64z"/>
+    <ellipse cx="320" cy="158" rx="62" ry="74" fill="#e0ad86"/>
+    <ellipse cx="260" cy="166" rx="9" ry="14" fill="#cf9670"/>
+    <!-- hair -->
+    <path fill="#141414" d="M258 160c0-70 28-92 62-92s62 22 62 92c-4-32-22-50-62-50s-58 18-62 50z"/>
+    <!-- sunglasses -->
+    <path fill="#050505" d="M256 148c0-12 14-18 64-18s64 6 64 18c0 16-16 26-64 26s-64-10-64-26z"/>
+  </g>
+  <!-- internal seams -->
+  <g stroke="#3a3a3a" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M320 280v240"/>
+    <path d="M244 520h152"/>
+    <path d="M332 600v64"/>
+  </g>
+  <path fill="#ffffff" opacity=".10" d="M276 144c22-6 62-6 88 0-26 4-66 4-88 0z"/>
+</svg>

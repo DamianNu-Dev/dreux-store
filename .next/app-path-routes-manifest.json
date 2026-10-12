@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/_global-error/page": "/_global-error",
+  "/icon.svg/route": "/icon.svg",
+  "/page": "/",
+  "/bolsa/page": "/bolsa",
+  "/buscar/page": "/buscar",
+  "/contacto/page": "/contacto",
+  "/nosotros/page": "/nosotros",
+  "/tienda/[slug]/page": "/tienda/[slug]",
+  "/tienda/page": "/tienda"
+}

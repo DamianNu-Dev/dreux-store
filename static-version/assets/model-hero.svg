@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" fill="none" role="img" aria-label="Model in black zip hoodie and futuristic sunglasses">
+  <!-- hood (back) -->
+  <path fill="#161616" d="M248 474c-22-106 2-182 92-182s114 76 92 182c-28-50-50-72-92-72s-64 22-92 72z"/>
+  <!-- drawstrings -->
+  <path d="M320 410 312 478" stroke="#4a4a4a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M360 410 368 478" stroke="#4a4a4a" stroke-width="5" stroke-linecap="round"/>
+  <!-- body / hoodie -->
+  <path fill="#0b0b0b" d="M150 820V604c0-88 42-136 116-152l48-20c6-18 14-28 26-28s20 10 26 28l48 20c74 16 116 64 116 152v216z"/>
+  <!-- neck -->
+  <path fill="#d29a74" d="M314 340h52l6 96h-64z"/>
+  <!-- head -->
+  <ellipse cx="340" cy="252" rx="94" ry="112" fill="#e0ad86"/>
+  <!-- ear -->
+  <ellipse cx="248" cy="264" rx="12" ry="18" fill="#cf9670"/>
+  <!-- hair -->
+  <path fill="#141414" d="M246 254c0-104 42-136 94-136s94 32 94 136c-6-46-32-74-94-74s-88 28-94 74z"/>
+  <!-- sunglasses -->
+  <path fill="#050505" d="M248 238c0-18 22-26 92-26s92 8 92 26c0 24-24 38-92 38s-92-14-92-38z"/>
+  <path fill="#ffffff" opacity=".13" d="M270 232c30-9 90-9 126 0-36 6-96 6-126 0z"/>
+  <rect x="226" y="228" width="26" height="12" rx="4" fill="#050505"/>
+  <rect x="432" y="228" width="26" height="12" rx="4" fill="#050505"/>
+  <!-- hood (front collar) -->
+  <path fill="#1d1d1d" d="M266 452c-8-54 8-84 74-84s82 30 74 84c-22-42-42-58-74-58s-52 16-74 58z"/>
+  <!-- zipper -->
+  <rect x="336" y="452" width="8" height="368" fill="#2b2b2b"/>
+  <rect x="333" y="470" width="14" height="16" rx="3" fill="#3f3f3f"/>
+  <!-- shoulder sheen -->
+  <path d="M266 452c30-18 118-18 148 0" stroke="#242424" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+</svg>
